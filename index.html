@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KOORA NOW - Actualités du football</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="images/logo.jpg" alt="Logo KOORA NOW" class="navbar-logo" />
+          KOORA <span>NOW</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mercato.html">Mercato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Matchs</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="matchs-aujourdhui.html"
+                    >Matchs d'aujourd'hui</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="matchs-hier.html"
+                    >Matchs d'hier</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="matchs-demain.html"
+                    >Matchs de demain</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="titre-page">Actualités du football</h1>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-4 actu" data-categorie="Liga">
+          <div class="card carte-actu h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Liga</span>
+              <h5 class="card-title">
+                FC Barcelone : les jeunes talents à suivre
+              </h5>
+              <p class="card-text">
+                Le Barça continue de mettre en avant la formation et les jeunes
+                joueurs. Leur progression pourrait jouer un rôle important dans
+                les ambitions du club cette saison.
+              </p>
+            </div>
+            <div class="card-footer text-muted small">Il y a 2 heures</div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4 actu"
+          data-categorie="Premier League"
+        >
+          <div class="card carte-actu h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-primary mb-2">Premier League</span>
+              <h5 class="card-title">
+                Une course au titre très ouverte en Angleterre
+              </h5>
+              <p class="card-text">
+                Trois équipes sont séparées par seulement deux points après neuf
+                journées de championnat.
+              </p>
+            </div>
+            <div class="card-footer text-muted small">Il y a 5 heures</div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4 actu"
+          data-categorie="International"
+        >
+          <div class="card carte-actu h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-info text-dark mb-2">International</span>
+              <h5 class="card-title">
+                Les sélections nationales préparent la trêve internationale
+              </h5>
+              <p class="card-text">
+                Les entraîneurs dévoilent bientôt leurs listes pour les
+                prochains matchs amicaux et qualificatifs.
+              </p>
+            </div>
+            <div class="card-footer text-muted small">Hier</div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4 actu" data-categorie="Liga">
+          <div class="card carte-actu h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Liga</span>
+              <h5 class="card-title">
+                Un jeune talent s'impose comme la révélation du début de saison
+              </h5>
+              <p class="card-text">
+                Buts et passes décisives : le jeune attaquant enchaîne les
+                bonnes performances avec son club.
+              </p>
+            </div>
+            <div class="card-footer text-muted small">Hier</div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4 actu"
+          data-categorie="Premier League"
+        >
+          <div class="card carte-actu h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-primary mb-2">Mercato</span>
+              <h5 class="card-title">
+                les clubs préparent leurs prochaines recrues
+              </h5>
+              <p class="card-text">
+                Les clubs étudient différentes pistes pour renforcer leurs
+                effectifs. Les besoins sportifs, le budget et la durée des
+                contrats sont autant de facteurs qui influencent les
+                négociations.
+              </p>
+            </div>
+            <div class="card-footer text-muted small">Il y a 2 jours</div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4 actu"
+          data-categorie="International"
+        >
+          <div class="card carte-actu h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-info text-dark mb-2">Joueurs</span>
+              <h5 class="card-title">
+                Kylian Mbappé : un joueur attendu au plus haut niveau
+              </h5>
+              <p class="card-text">
+                Les performances de l'attaquant français attirent l'attention
+                des supporters. Ses buts, ses déplacements et sa complémentarité
+                avec ses coéquipiers sont des éléments importants à analyser.
+              </p>
+            </div>
+            <div class="card-footer text-muted small">Il y a 2 jours</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

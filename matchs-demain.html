@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matchs de demain | KOORA NOW</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="images/logo.jpg" alt="Logo KOORA NOW" class="navbar-logo" />
+          KOORA <span>NOW</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mercato.html">Mercato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Matchs</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="matchs-aujourdhui.html"
+                    >Matchs d'aujourd'hui</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="matchs-hier.html"
+                    >Matchs d'hier</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="matchs-demain.html"
+                    >Matchs de demain</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="titre-page">Matchs de demain</h1>
+      <p class="lead">
+        Programme du
+        <strong><span id="date-affichee" data-decalage="1"></span></strong>
+      </p>
+
+      <h4><span class="badge bg-success">La Liga</span></h4>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Athletic Bilbao</div>
+          <div class="col-4"><span class="score">18:30</span><br /></div>
+          <div class="col-4 equipe-nom text-start">Celta Vigo</div>
+        </div>
+      </div>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Osasuna</div>
+          <div class="col-4"><span class="score">21:00</span><br /></div>
+          <div class="col-4 equipe-nom text-start">Getafe</div>
+        </div>
+      </div>
+
+      <h4 class="mt-4"><span class="badge bg-primary">Premier League</span></h4>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Chelsea</div>
+          <div class="col-4"><span class="score">17:30</span><br /></div>
+          <div class="col-4 equipe-nom text-start">West Ham</div>
+        </div>
+      </div>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Liverpool</div>
+          <div class="col-4"><span class="score">20:00</span><br /></div>
+          <div class="col-4 equipe-nom text-start">Bournemouth</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matchs d'hier | KOORA NOW</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="images/logo.jpg" alt="Logo KOORA NOW" class="navbar-logo" />
+          KOORA <span>NOW</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mercato.html">Mercato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Matchs</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="matchs-aujourdhui.html"
+                    >Matchs d'aujourd'hui</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="matchs-hier.html"
+                    >Matchs d'hier</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="matchs-demain.html"
+                    >Matchs de demain</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="titre-page">Matchs d'hier</h1>
+      <p class="lead">
+        Résultats du
+        <strong><span id="date-affichee" data-decalage="-1"></span></strong>
+      </p>
+
+      <h4><span class="badge bg-success">La Liga</span></h4>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">FC Barcelone</div>
+          <div class="col-4">
+            <span class="score">3 - 1</span><br /><span
+              class="badge bg-secondary"
+              >Terminé</span
+            >
+          </div>
+          <div class="col-4 equipe-nom text-start">Valence</div>
+        </div>
+      </div>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Real Madrid</div>
+          <div class="col-4">
+            <span class="score">2 - 2</span><br /><span
+              class="badge bg-secondary"
+              >Terminé</span
+            >
+          </div>
+          <div class="col-4 equipe-nom text-start">Villarreal</div>
+        </div>
+      </div>
+
+      <h4 class="mt-4"><span class="badge bg-primary">Premier League</span></h4>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Arsenal</div>
+          <div class="col-4">
+            <span class="score">2 - 0</span><br /><span
+              class="badge bg-secondary"
+              >Terminé</span
+            >
+          </div>
+          <div class="col-4 equipe-nom text-start">Fulham</div>
+        </div>
+      </div>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Liverpool</div>
+          <div class="col-4">
+            <span class="score">1 - 1</span><br /><span
+              class="badge bg-secondary"
+              >Terminé</span
+            >
+          </div>
+          <div class="col-4 equipe-nom text-start">Chelsea</div>
+        </div>
+      </div>
+
+      <div class="carte-match">
+        <div class="row align-items-center text-center">
+          <div class="col-4 equipe-nom text-end">Manchester City</div>
+          <div class="col-4">
+            <span class="score">3 - 0</span><br /><span
+              class="badge bg-secondary"
+              >Terminé</span
+            >
+          </div>
+          <div class="col-4 equipe-nom text-start">Brentford</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

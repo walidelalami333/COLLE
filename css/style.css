@@ -1,0 +1,71 @@
+body {
+  background-color: var(--fond-page);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.navbar-logo {
+  height: 42px;
+  width: 42px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-brand span {
+  color: #20c997;
+}
+
+.titre-page {
+  border-left: 6px solid var;
+  padding-left: 12px;
+  margin: 30px 0 20px 0;
+  font-weight: bold;
+}
+
+.carte-actu .carte-entete {
+  height: 140px;
+  display: flex;
+  align-items: center;
+
+  font-size: 3rem;
+  color: white;
+}
+
+.fond-bleu {
+  background-color: #0d6efd;
+}
+.fond-violet {
+  background-color: var(--violet-logo);
+}
+.fond-orange {
+  background-color: #fd7e14;
+}
+:root {
+  --vert-foot: #198754;
+  --violet-logo: #5a0ee6;
+  --fond-page: #f4f6f8;
+}
+
+.carte-match {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carte-match .score {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--vert-foot);
+}
+
+.carte-match .equipe-nom {
+  font-weight: 600;
+}
